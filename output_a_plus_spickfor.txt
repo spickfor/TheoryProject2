@@ -1,0 +1,24 @@
+Machine: a plus
+Input String: aaa
+
+Depth of Tree of configurations: 4
+Accepted in 4 transitions.
+
+Trace:
+Depth 0:
+  ('', 'q1', 'aaa')
+Depth 1:
+  ('a', 'q1', 'aa')
+  ('a', 'q2', 'aa')
+Depth 2:
+  ('aa', 'q1', 'a')
+  ('aa', 'q2', 'a')
+Depth 3:
+  ('aaa', 'q1', '_')
+  ('aaa', 'q2', '_')
+Depth 4:
+  ('aa', 'q3', 'a_')
+Total transitions: 10
+Total non-leaf nodes: 7
+Nondeterminism: 1.43
+==============================================

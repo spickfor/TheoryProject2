@@ -1,0 +1,21 @@
+Machine: a plus DTM
+Input String: aaa
+
+Depth of Tree of configurations: 4
+Accepted in 4 transitions.
+
+Trace:
+Depth 0:
+  ('', 'q1', 'aaa')
+Depth 1:
+  ('a', 'q1', 'aa')
+Depth 2:
+  ('aa', 'q1', 'a')
+Depth 3:
+  ('aaa', 'q1', '_')
+Depth 4:
+  ('aaaa', 'q2', '_')
+Total transitions: 4
+Total non-leaf nodes: 4
+Nondeterminism: 1.00
+==============================================

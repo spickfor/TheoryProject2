@@ -1,0 +1,19 @@
+Machine: palindrome Nondeterministic
+Input String: aaabbbaaa
+
+Depth of Tree of configurations: 2
+Accepted in 2 transitions.
+
+Trace:
+Depth 0:
+  ('', 'q0', 'aaabbbaaa')
+Depth 1:
+  ('_', 'q1', 'aabbbaaa')
+  ('', 'q3', '_aabbbaaa')
+Depth 2:
+  ('_a', 'q1', 'abbbaaa')
+  ('', 'qacc', '_aabbbaaa')
+Total transitions: 5
+Total non-leaf nodes: 4
+Nondeterminism: 1.25
+==============================================

@@ -1,0 +1,41 @@
+Machine: palindrome Deterministic
+Input String: aaabbbaaa
+
+Depth of Tree of configurations: 14
+Accepted in 14 transitions.
+
+Trace:
+Depth 0:
+  ('', 'q0', 'aaabbbaaa')
+Depth 1:
+  ('_', 'q1', 'aabbbaaa')
+Depth 2:
+  ('_a', 'q1', 'abbbaaa')
+Depth 3:
+  ('_aa', 'q1', 'bbbaaa')
+Depth 4:
+  ('_aab', 'q1', 'bbaaa')
+Depth 5:
+  ('_aabb', 'q1', 'baaa')
+Depth 6:
+  ('_aabbb', 'q1', 'aaa')
+Depth 7:
+  ('_aabbba', 'q1', 'aa')
+Depth 8:
+  ('_aabbbaa', 'q1', 'a')
+Depth 9:
+  ('_aabbbaaa', 'q1', '_')
+Depth 10:
+  ('_aabbbaa', 'q3', 'a_')
+Depth 11:
+  ('_aabbba', 'q0', 'a__')
+Depth 12:
+  ('_aabbba_', 'q1', '__')
+Depth 13:
+  ('_aabbba', 'q3', '___')
+Depth 14:
+  ('_aabbba', 'qacc', '___')
+Total transitions: 14
+Total non-leaf nodes: 14
+Nondeterminism: 1.00
+==============================================

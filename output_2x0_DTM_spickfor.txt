@@ -1,0 +1,50 @@
+Machine: {w | w has twice the number of 0's as it does 1's} Deterministic
+Input String: 000011
+
+Trace:
+Depth 0:
+  ('', 'q0', '000011')
+Depth 1:
+  ('_', 'q5', '00011')
+Depth 2:
+  ('_x', 'q6', '0011')
+Depth 3:
+  ('_x0', 'q6', '011')
+Depth 4:
+  ('_x00', 'q6', '11')
+Depth 5:
+  ('_x0', 'q4', '0x1')
+Depth 6:
+  ('_x', 'q4', '00x1')
+Depth 7:
+  ('_', 'q4', 'x00x1')
+Depth 8:
+  ('', 'q4', '_x00x1')
+Depth 9:
+  ('_', 'q1', 'x00x1')
+Depth 10:
+  ('_x', 'q1', '00x1')
+Depth 11:
+  ('_xx', 'q5', '0x1')
+Depth 12:
+  ('_xxx', 'q6', 'x1')
+Depth 13:
+  ('_xxxx', 'q6', '1')
+Depth 14:
+  ('_xxx', 'q4', 'xx')
+Depth 15:
+  ('_xx', 'q4', 'xxx')
+Depth 16:
+  ('_x', 'q4', 'xxxx')
+Depth 17:
+  ('_', 'q4', 'xxxxx')
+Depth 18:
+  ('', 'q4', '_xxxxx')
+Depth 19:
+  ('_', 'q1', 'xxxxx')
+Depth 20:
+  ('_x', 'q1', 'xxxx')
+Total transitions: 20
+Total non-leaf nodes: 20
+Nondeterminism: 1.00
+==============================================

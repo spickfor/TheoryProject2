@@ -1,0 +1,72 @@
+Machine: a*b*c* Nondeterministic
+Input String: abbbcccccc
+
+Depth of Tree of configurations: 11
+Accepted in 11 transitions.
+
+Trace:
+Depth 0:
+  ('', 'q0', 'abbbcccccc')
+Depth 1:
+  ('a', 'q0', 'bbbcccccc')
+  ('a', 'q1', 'bbbcccccc')
+  ('a', 'q2', 'bbbcccccc')
+  ('a', 'q3', 'bbbcccccc')
+Depth 2:
+  ('ab', 'q1', 'bbcccccc')
+  ('ab', 'q2', 'bbcccccc')
+  ('ab', 'q3', 'bbcccccc')
+  ('ab', 'q1', 'bbcccccc')
+  ('ab', 'q2', 'bbcccccc')
+  ('ab', 'q3', 'bbcccccc')
+Depth 3:
+  ('abb', 'q1', 'bcccccc')
+  ('abb', 'q2', 'bcccccc')
+  ('abb', 'q3', 'bcccccc')
+  ('abb', 'q1', 'bcccccc')
+  ('abb', 'q2', 'bcccccc')
+  ('abb', 'q3', 'bcccccc')
+Depth 4:
+  ('abbb', 'q1', 'cccccc')
+  ('abbb', 'q2', 'cccccc')
+  ('abbb', 'q3', 'cccccc')
+  ('abbb', 'q1', 'cccccc')
+  ('abbb', 'q2', 'cccccc')
+  ('abbb', 'q3', 'cccccc')
+Depth 5:
+  ('abbbc', 'q2', 'ccccc')
+  ('abbbc', 'q3', 'ccccc')
+  ('abbbc', 'q2', 'ccccc')
+  ('abbbc', 'q3', 'ccccc')
+Depth 6:
+  ('abbbcc', 'q2', 'cccc')
+  ('abbbcc', 'q3', 'cccc')
+  ('abbbcc', 'q2', 'cccc')
+  ('abbbcc', 'q3', 'cccc')
+Depth 7:
+  ('abbbccc', 'q2', 'ccc')
+  ('abbbccc', 'q3', 'ccc')
+  ('abbbccc', 'q2', 'ccc')
+  ('abbbccc', 'q3', 'ccc')
+Depth 8:
+  ('abbbcccc', 'q2', 'cc')
+  ('abbbcccc', 'q3', 'cc')
+  ('abbbcccc', 'q2', 'cc')
+  ('abbbcccc', 'q3', 'cc')
+Depth 9:
+  ('abbbccccc', 'q2', 'c')
+  ('abbbccccc', 'q3', 'c')
+  ('abbbccccc', 'q2', 'c')
+  ('abbbccccc', 'q3', 'c')
+Depth 10:
+  ('abbbcccccc', 'q2', '_')
+  ('abbbcccccc', 'q3', '_')
+  ('abbbcccccc', 'q2', '_')
+  ('abbbcccccc', 'q3', '_')
+Depth 11:
+  ('abbbcccccc_', 'qacc', '_')
+  ('abbbcccccc_', 'qacc', '_')
+Total transitions: 74
+Total non-leaf nodes: 47
+Nondeterminism: 1.57
+==============================================
